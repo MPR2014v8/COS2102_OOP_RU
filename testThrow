@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+double f(){
+throw 2.5;
+	return 2.5;
+}
+
+int main(){
+	
+	try{
+
+		f();
+	}
+	catch(2.5){
+		cout<<"2.5"<<endl;
+	}
+	catch(double){
+		cout<<"double"<<endl;
+	}
+
+	return 0;
+}
